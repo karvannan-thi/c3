@@ -48,6 +48,7 @@ import './shape.line';
 import './size';
 import './subchart';
 import './text';
+import './treemap';
 import './title';
 import './tooltip';
 import './type';

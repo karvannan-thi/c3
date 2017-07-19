@@ -189,6 +189,7 @@ c3_chart_internal_fn.initWithData = function (data) {
     $$.axis = new Axis($$);
 
     if ($$.initPie) { $$.initPie(); }
+     if ($$.initTreemap) { $$.initTreemap(); }
     if ($$.initBrush) { $$.initBrush(); }
     if ($$.initZoom) { $$.initZoom(); }
 
